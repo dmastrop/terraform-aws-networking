@@ -14,6 +14,11 @@ crash.log
 # password, private keys, and other secrets. These should not be part of version 
 # control as they are data points which are potentially sensitive and subject 
 # to change depending on the environment.
+
+# Note that in this project we are using terraform.auto.tfvars and this needs to be pushed to the repo
+# The .auto will be picked up by terraform cloud workspace and used accordingly. 
+# We can use regex to block .tfvars and allow .auto.tfvars, but for simplicity for now we will push all .tfvars
+# In production this would not be done....
 #
 #*.tfvars
 
