@@ -1,3 +1,5 @@
+# This is terraform-aws-networking/variables.tf
+
 variable "aws_region" {}
 # note that aws_region is not specified.  Add this variable as a terraform variable in the terraform cloud workspace
 
